@@ -572,12 +572,12 @@ function getImports() {
     imports.wbg.__wbindgen_throw = function(arg0, arg1) {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
-    imports.wbg.__wbindgen_closure_wrapper1047 = function(arg0, arg1, arg2) {
-        const ret = makeClosure(arg0, arg1, 143, __wbg_adapter_24);
+    imports.wbg.__wbindgen_closure_wrapper1606 = function(arg0, arg1, arg2) {
+        const ret = makeClosure(arg0, arg1, 182, __wbg_adapter_24);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper3904 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 172, __wbg_adapter_27);
+    imports.wbg.__wbindgen_closure_wrapper4544 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 211, __wbg_adapter_27);
         return addHeapObject(ret);
     };
 
@@ -613,7 +613,7 @@ function initSync(bytes) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('weather-yew-674c26167f726027_bg.wasm', import.meta.url);
+        input = new URL('weather-yew-e2d557baafee44f6_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
